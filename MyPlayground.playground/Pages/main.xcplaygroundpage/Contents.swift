@@ -15,7 +15,9 @@
  */
 // write your code here
 
-
+func continentsAndCountries(continent continent : String, numberOfCountries : Int)  {
+    print("\(continent) is a continent which contains \(numberOfCountries) countries.")
+}
 
 
 /*: question2
@@ -25,7 +27,7 @@ func greeting(name: String, greeting: String) {
     print("\(greeting), \(name)!")
 }
 
-greeting("Danny", "Hello")
+greeting("Danny", greeting: "Hello")
 
 
 
@@ -33,7 +35,7 @@ greeting("Danny", "Hello")
 /*: question3
  ### 3. This function doesn't work, either. Can you fix the function (_not_ the call) so that it works?
  */
-func daysInMonth(month: String, days: String) {
+func daysInMonth(month: String, days: Int) {
     print("There are \(days) in \(month)")
 }
 
@@ -46,8 +48,9 @@ daysInMonth("November", days: 30)
  ### 4. So far, you have created functions that take two arguments. Can you create (and call) one that takes three? Try to create a function that three parameters: a beverage, the number of bottles of that beverage, and a place you can keep those bottles. Print the sentence "____ bottles of ____ on the ____ wall."
  */
 // write your code here
-
-
+func bottlesOnTheWall (numberOfBottles numberOfBottles: Int, beverage : String , storage : String) {
+ print("\(numberOfBottles) bottles of \(beverage) on the \(storage) wall.")
+}
 
 
 /*:
